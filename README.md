@@ -7,9 +7,12 @@ the thing you see in this repository don't care i said i learning git
 
 ---
 
-git init    
+git init
+
 git add <file name or . for all files>
+
 git commit -m 'a message'   `after change sth in files 1. do git add 2. git commit `
+
 git log
 
 ---
