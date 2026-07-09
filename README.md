@@ -1,4 +1,4 @@
-# in this case i learn just git .
+# in this case i just learn git .
 
 the thing you see in this repository don't care i said i learning git 
 
@@ -9,24 +9,30 @@ the thing you see in this repository don't care i said i learning git
 
 git init
 
-git add <file name or . for all files>
+git add    [ file name or  , **.** for all files ]
 
 git commit -m 'a message'   `after change sth in files 1. do git add 2. git commit `
+
+git commit --amend --no-edit   `commit to last commit but don't change the message`
+
+git commit --amend -m 'message'   ` commit to last commit change the message`
 
 git log
 
 ---
 
 git log --all
+
 git log --all --graph   `this is for the branching`
 
 ---
 
-git checkout <the commit hash> 
+git checkout   [ the coomit hash ]
 
 ---
 
 git config --global user.email 'email'  `for taking a email good for company`
+
 git config --global user.name 'name'  `for taking a name`
 
 ---
@@ -35,16 +41,20 @@ git config --global alias.s "status"    `the s after alias is the shortcut`
 
 ---
 
-git remote add <name> <ssh or http> `add repo to you machine`
+git remote add  [ name ] [ ssh or http ]  `add repo to you machine`
+
 git remote `see repos`
+
 git remote -v `see repos with details`
 
 ---
 
-git push <name the repo you set in remote add> <branch name>
+git push [ name the repo you set in remote add ] [ branch name ]
 
+git pull  [ name the repo you set in remote add ] [ branch name ]
 
-
+git push mean sync your local repo with github repo
+git pull mean sync your github repo with local one
 
 
 ---
