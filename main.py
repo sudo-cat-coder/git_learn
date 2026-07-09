@@ -2,10 +2,10 @@
 
 from random import randint
 
-def computer_guess():
+def computer_number():
     return randint(1,50)
 
-computer_num = computer_guess()
+computer_num = computer_number()
 running = True
 while running:
     user = int(input("enter you'r number : "))
