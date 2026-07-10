@@ -53,11 +53,11 @@ git remote -v `see repos with details`
 
 git push [ name the repo you set in remote add ] [ branch name ]
 
+
 git pull  [ name the repo you set in remote add ] [ branch name ]
 
 git push mean sync your local repo with github repo
 git pull mean sync your github repo with local one
-
 
 ---
 
