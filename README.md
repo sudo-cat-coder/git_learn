@@ -87,4 +87,11 @@ git checkout [ branch name ]  `switch to that branch`
 
 git switch [ branch name ]  `switch to that branch`
 
+in the branch do you'r changes updates ... add , commit when you done go to that branch you want for example master branch and type
 
+git merge [ branch name ]  
+
+it should be merge the feutur branch to master branch or anything else 
+
+
+.
