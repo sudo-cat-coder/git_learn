@@ -21,6 +21,6 @@ while running:
             if isRunning == 'N' or isRunning == 'n':
                 running = False
     except :
-        print("[red] you didn't enter a number [red]")
+        print("[red] you didn't enter a number [red]\n")
         
     

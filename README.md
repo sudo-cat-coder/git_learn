@@ -84,6 +84,8 @@ git branch -a  `see the branches`
 
 git checkout [ branch name ]  `switch to that branch`
 
+git switch [ branch name ]  `switch to that branch`
+
 
 
 
