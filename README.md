@@ -25,6 +25,8 @@ git log --all
 
 git log --all --graph   `this is for the branching`
 
+git log --oneline `show commits logs in one lien`
+
 ---
 
 git checkout   [ the coomit hash ]
@@ -61,4 +63,31 @@ git pull mean sync your github repo with local one
 
 
 about .gitignore : a file contains name and enxtentions of files to didn't add to version controlling
+
+---
+### Day 2 of learning git and github
+<!-- definitely when you learn git you must learn github -->
+---
+<!-- >git branch
+git branch branch-name
+git switch branch-name
+git switch -c branch-name
+git merge branch-name
+git branch -d branch-name
+git rebase
+git stash
+git diff -->
+
+git branch  [ name ] `make a new branch`
+
+git branch -a  `see the branches`
+
+git checkout [ branch name ]  `switch to that branch`
+
+
+
+
+
+
+
 

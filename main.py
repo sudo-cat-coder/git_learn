@@ -1,5 +1,5 @@
 # guess number game
-
+from rich import print
 from random import randint
 
 def computer_number():
@@ -8,15 +8,19 @@ def computer_number():
 computer_num = computer_number()
 running = True
 while running:
-    user = int(input("enter you'r number : "))
-    if user > computer_num:
-        print("you'r number bigger than me\n")
-    elif user < computer_num:
-        print("my number bigger than you\n")
-    else:
-        print('you win')
-        print(f'my number was {computer_num}')
-        isRunning = input('do you want to continue?[Y/n]').lower()
-        if isRunning == 'N' or isRunning == 'n':
-            running = False
+    try :
+        user = int(input(" enter you'r number : "))
+        if user > computer_num:
+            print("[magenta]you'r number bigger than me[magenta]\n")
+        elif user < computer_num:
+            print("[magenta]my number bigger than you[magenta]n")
+        else:
+            print("[green]you win![green]")
+            print(f'my number was {computer_num}')
+            isRunning = input('do you want to continue?[Y/n]').lower()
+            if isRunning == 'N' or isRunning == 'n':
+                running = False
+    except :
+        print("[red] you didn't enter a number [red]")
+        
     
