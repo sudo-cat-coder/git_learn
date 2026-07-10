@@ -25,6 +25,8 @@ git log --all
 
 git log --all --graph   `this is for the branching`
 
+git log --oneline `show commits logs in one lien`
+
 ---
 
 git checkout   [ the coomit hash ]
@@ -54,6 +56,7 @@ git push [ name the repo you set in remote add ] [ branch name ]
 git pull  [ name the repo you set in remote add ] [ branch name ]
 
 git push mean sync your local repo with github repo
+
 git pull mean sync your github repo with local one
 
 
@@ -62,4 +65,19 @@ git pull mean sync your github repo with local one
 
 about .gitignore : a file contains name and enxtentions of files to didn't add to version controlling
 
-### Day 2
+
+---
+### Day 2 of learning git and github
+<!-- definitely when you learn git you must learn github -->
+---
+
+
+git branch  [ name ] `make a new branch`
+
+git branch -a  `see the branches`
+
+git checkout [ branch name ]  `switch to that branch`
+
+git switch [ branch name ]  `switch to that branch`
+
+
