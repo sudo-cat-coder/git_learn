@@ -62,3 +62,4 @@ git pull mean sync your github repo with local one
 
 about .gitignore : a file contains name and enxtentions of files to didn't add to version controlling
 
+### Day 2
